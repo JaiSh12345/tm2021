@@ -3,33 +3,34 @@ import React from "react";
 class Event extends React.Component<any, any> {
   render() {
     return (
-      <div>
-        <article id="pitem" className="col-md-4 isotopeItem tech">
-          <div className="portfolio-item">
-            <a>
-              <img src={this.props.imsrc} />
-            </a>
-            <div className="portfolio-desc align-center">
-              <div className="folio-info">
-                <a>
-                  <h3>{this.props.name}</h3>
-                  <br />
-                  {this.props.text}
-                </a>
-                <div className="text-center" style={{ paddingTop: 70 }}>
-                  <button
-                    type="button"
-                    className="btn"
-                    data-toggle="modal"
-                    data-target={'#'+this.props.id}
-                  >
-                    Learn more
-                  </button>
-                </div>
+      <article
+        id="pitem"
+        className={"col-md-4 isotopeItem " + this.props.className}
+      >
+        <div className="portfolio-item">
+          <a>
+            <img src={this.props.imsrc} />
+          </a>
+          <div className="portfolio-desc align-center">
+            <div className="folio-info">
+              <a>
+                <h3>{this.props.name}</h3>
+                <br />
+                {this.props.text}
+              </a>
+              <div className="text-center" style={{ paddingTop: 70 }}>
+                <button
+                  type="button"
+                  className="btn"
+                  data-toggle="modal"
+                  data-target={"#" + this.props.id}
+                >
+                  Learn more
+                </button>
               </div>
             </div>
           </div>
-        </article>
+        </div>
         <div id={this.props.id} className="modal fade">
           <div className="modal-dialog" role="document">
             <div className="modal-content">
@@ -150,7 +151,7 @@ class Event extends React.Component<any, any> {
             </div>
           </div>
         </div>
-      </div>
+      </article>
     );
   }
 }
