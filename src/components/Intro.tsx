@@ -5,7 +5,7 @@ class Intro extends React.Component {
         return (
             <section id="intro">
 
-                <canvas className="canvas"></canvas>
+                <canvas></canvas>
 
                 <div className="intro-container wow fadeIn">
                     <h1 className="mb-4 pb-0">The Annual<br/><span>Sanganika</span> Fest</h1>

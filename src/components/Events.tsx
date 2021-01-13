@@ -1,13 +1,9 @@
-import React from 'react';
+import React from "react";
 
 class Events extends React.Component {
-    render() {
-        return (
-            <div>
-
-            </div>
-        );
-    }
+  render() {
+    return <div></div>;
+  }
 }
 
 export default Events;
