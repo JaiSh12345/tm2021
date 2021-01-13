@@ -17,22 +17,22 @@ class Events extends React.Component {
             <nav id="filter">
               <ul className="nav nav-tabs">
                 <li className="nav-item">
-                  <a href="#" className="current nav-link" data-filter="*">
+                  <a href="#all" className="current nav-link" data-filter="*">
                     All
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link" data-filter=".tech">
+                  <a href="#tech" className="nav-link" data-filter=".tech">
                     Technical
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link" data-filter=".nontech">
+                  <a href="#nontech" className="nav-link" data-filter=".nontech">
                     Non-Technical
                   </a>
                 </li>
                 <li className="nav-item" style={{ paddingTop: 15 }}>
-                  <a href="#" className="nav-link" data-filter=".code">
+                  <a href="#code" className="nav-link" data-filter=".code">
                     Coding
                   </a>
                 </li>
@@ -47,14 +47,14 @@ class Events extends React.Component {
                     text="Witty Questionnaire based on algorithms."
                     imsrc="img/events/algowls.webp"
                     id="algowls"
-                    className="tech"
+                    className=".tech"
                   />
                   <Event
                     name="LAN Gaming"
                     text="Name says it all ;)"
                     imsrc="img/events/langaming.webp"
                     id="langaming"
-                    className="nontech"
+                    className=".nontech"
                   />
                   <Event
                     name="App Combat"

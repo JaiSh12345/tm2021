@@ -1,6 +1,11 @@
 # Tech Marathon 2021
 Annual Tech Fest organised by Sanganika Department, DDUC, DU
 
+## Setup
+1. Install Node
+2. Clone the repo
+3. Run ```npm install``` to install dependencies
+
 ## Available Scripts
 
 In the project directory, you can run:

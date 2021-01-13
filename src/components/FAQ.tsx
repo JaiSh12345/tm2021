@@ -28,6 +28,7 @@ class FAQ extends React.Component {
                       <a
                         href="https://portal.techmarathon.in"
                         target="_blank"
+                        rel="noreferrer"
                         style={{ all: "initial", color: "#00ff41" }}
                       >
                         portal.techmarathon.in

@@ -6,6 +6,7 @@ class Event extends React.Component<any, any> {
       <article
         id="pitem"
         className={"col-md-4 isotopeItem " + this.props.className}
+        style={{float: 'left'}}
       >
         <div className="portfolio-item">
           <a>
